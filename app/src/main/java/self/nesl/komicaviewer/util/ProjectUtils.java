@@ -11,6 +11,7 @@ import java.util.Map;
 
 import self.nesl.komicaviewer.models.Host;
 import self.nesl.komicaviewer.models.Request;
+import self.nesl.komicaviewer.models.fb.FBHost;
 import self.nesl.komicaviewer.models.komica.host.KomicaHost;
 import self.nesl.komicaviewer.models.po.Post;
 import self.nesl.komicaviewer.models.komica.host.KomicaTop50Host;
@@ -41,6 +42,7 @@ public class ProjectUtils {
         return new Host[]{
                 new KomicaTop50Host(),
                 new KomicaHost(),
+                new FBHost()
         };
     }
 
